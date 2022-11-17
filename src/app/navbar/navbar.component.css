@@ -276,7 +276,7 @@ a.bg-black {
     background-color: rgb(171 171 171 / 37%);
     border-radius: 30px;
     height: 40px;
-    width: 40px;
+    width: 46px;
     margin-left: 20px;
 }
 
@@ -355,11 +355,32 @@ span.rounded-md.bg-\[rgba\(0\,102\,179\,0\.1\)\].px-2.py-1 {
 }
 
 .ex {
+    display: block;
     position: absolute;
     height: 100%;
     width: 30%;
     right: 0px;
     background-color: white;
+    margin-right: -500px;
+}
+
+
+@keyframes mymove1 {
+
+    100% {
+        right: 500px;
+    }
+}
+@keyframes mymove2 {
+
+    100% {
+        right: 0px;
+    }
+    
+}
+
+#div1 {
+    animation-timing-function: linear;
 }
 
 .border-black.rounded-0 {
